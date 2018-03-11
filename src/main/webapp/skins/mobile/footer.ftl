@@ -2,18 +2,19 @@
     <div class="wrapper ft-smaller">
         <div class="footer-nav">
             <span>&COPY; ${year}</span>
-            <a rel="copyright" href="https://hacpai.com" target="_blank">hacpai.com</a>
+            <a rel="copyright" href="http://ldlqdsd.com" target="_blank">ldlqdsd.com</a>
             ${visionLabel}
         </div>
         <div class="fn-hr5"></div>
         <div>
-            ${sloganLabel}
+            <#--${sloganLabel}-->
+            用心享受生活!
         </div>
         <div class="fn-hr5"></div>
         <div>
-            <span>Powered by <a href="http://b3log.org" target="_blank">B3log 开源</a> •
-                <a href="http://sym.b3log.org" target="_blank">Sym</a>
-                ${version} • ${elapsed?c}ms</span>
+            <span>Powered by <a href="http://ldlqdsd.com" target="_blank">草友网</a> •
+                <a href="http://ldlqdsd.com" target="_blank">草友网</a>
+                ${version} • ${elapsed?c}草友网</span>
         </div>
     </div>
 </div>
