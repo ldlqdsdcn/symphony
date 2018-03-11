@@ -126,7 +126,7 @@
                     </div>
                 </div>
             </div>
-            <div class="index__bottom">
+            <#--<div class="index__bottom">
                 <div class="wrapper">
                     <div class="fn-flex-1">
                         <div class="metro-line fn-flex">
@@ -248,7 +248,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div>-->
         </div>
     </div>
     <#include "footer.ftl">

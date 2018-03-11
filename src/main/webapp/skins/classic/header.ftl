@@ -16,8 +16,6 @@
         <a href="${servePath}/city/my"<#if selected?? && 'city' == selected> class="current"</#if>>
            <svg><use xlink:href="#local"></use></svg> ${currentUser.userCity}</a>
         </#if>
-        <a href="https://hacpai.com/tag/book_share"<#if selected?? && 'book' == selected> class="current"</#if>>
-           <svg><use xlink:href="#book"></use></svg> ${bookShareLabel}</a>
     </div>
     <#if esEnabled || algoliaEnabled>
     <form class="responsive-hide fn-left" target="_blank" action="/search">
