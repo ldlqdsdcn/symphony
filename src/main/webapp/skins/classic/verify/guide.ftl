@@ -146,7 +146,6 @@
             Label.unfollowLabel = '${unfollowLabel}';
             Label.followLabel = '${followLabel}';
             Verify.initGuide(${currentUser.userGuideStep?c}, ${tags?size});
-
             Settings.initUploadAvatar({
                 id: 'avatarUpload',
                 qiniuUploadToken: '${qiniuUploadToken}',

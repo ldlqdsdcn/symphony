@@ -3,11 +3,11 @@
         <div class="head-fn fn-left">
             <h1>
                 <a href="${servePath}" aria-label="${symphonyLabel}">
-                    <svg><use xlink:href="#logo"></use></svg>
+                    <img src="${servePath}/images/favicon.png">
+                    <#--<svg><use xlink:href="#logo"></use></svg>-->
                 </a>
             </h1>
         </div>
-
         <div class="fn-right user-nav">
             <#if isLoggedIn>
             <#if permissions["menuAdmin"].permissionGrant>
@@ -24,8 +24,7 @@
             <a href="${servePath}/recent"><svg><use xlink:href="#refresh"></use></svg></a>
             <#else>
                 <a href="javascript: Util.goLogin();" title="${loginLabel}" class="unlogin">${loginLabel}</a>
-                <a id="aRegister" href="javascript:Util.goRegister()" class="last ft-blue unlogin"
-                 title="${registerLabel}">${registerLabel}</a>
+                <a id="aRegister" href="javascript:Util.goRegister()" class="last ft-blue unlogin" title="${registerLabel}">${registerLabel}</a>
             </#if>
         </div>
     </div>
